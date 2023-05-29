@@ -1,0 +1,46 @@
+h3{
+color: Teal;
+font-family: Arial, Helvetica, thai;
+font-size: 40px;
+
+}
+
+
+ul{
+color: dark-grey;
+font-family: serif;
+font-size: 40px;
+position: absolute | fixed;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-between;
+  font-family:thai;
+
+
+
+}
+
+nav{
+ background-color: Teal;
+ margin: 20px;
+ padding: 30px;
+
+}
+
+
+ol{
+color: dark-grey;
+font-family: serif;
+font-size: 40px;
+
+
+
+}
