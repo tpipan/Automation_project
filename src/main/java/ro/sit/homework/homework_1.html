@@ -10,7 +10,10 @@
   <nav>
     <ul class="nav">
       <li>
-        <a href="#envsetings">Environment Settings</a>
+        <a href="#toolset">Tool Set</a>
+      </li>
+      <li>
+        <a href="#envsetings">Environment Variables</a>
 
       </li>
 
@@ -31,7 +34,6 @@
       <li>
         <a href="#gitrepo">GIT repository</a>
       </li>
-      </li>
       <li>
         <a href="#browsers">Browsers</a>
       </li>
@@ -40,83 +42,106 @@
 </header>
 
 <main>
-  <section id="envsetings" style="width:100vw; height:100vh; background-color:silver; text-align: center; " >
+
+  <section id="toolset">
+    <h3>Tool Set</h3>
+    <img src="Java8.png" alt="">
+    <img src="selenium.png" alt="">
+    <img src="mysql.jpg" alt="">
+    <img src="apachemaven.jpg" alt="">
+    <img src="download.jfif" alt="">
+    <img src="git.jpg" alt="">
+    <img src="intelij.jpg" alt="">
+
+
+
+  </section>
+  <section id="envsetings"   >
     <h3>Environment Settings </h3>
     <ul>
       <li>System variables</li>
       <li>User variables</li>
-      <li>Path variable</li>
+      <li><b> <i>Path</i></b> variable</li>
     </ul>
-  </section>
-  <section id="javasdk" style="width:100vw; height:100vh; background-color:silver; text-align: center; ">
-    <h3>Java SDK</h3>
 
+    <img src="systemv.png" alt="" style="width: 100 ">
+    <img src="right.png" alt="" style="color:green ">
+    <img src="variables.png" alt="">
+  </section>
+  <section id="javasdk" >
+    <h3>Java SDK</h3>
+    <a href="https://www.oracle.com/" class="link">oracle.com</a>
     <ol>
       <li>Downloads -> Java SE -> version 8xxx</li>
       <li>Install</li>
-      <li>Add the JDK path to system PATH environment variable</li>
+      <li>Add the <b>JDK</b> path to system PATH environment variable</li>
       <li> Test the installation with command</li>
-      
+
     </ol>
-    <img src="link.png" alt="">
-    <a href="https://www.oracle.com/" id="link">oracle.com</a>
-    <p>java -version</p>
+
+    <code>java -version</code>
   </section>
 
-  <section id="apachemaven" style="width:100vw; height:100vh; background-color:silver; text-align: center; ">
+  <section id="apachemaven">
     <h3>Apache Maven</h3>
 
+    <a href="https://maven.apache.org/" class="link">maven.apache.org</a>
     <ol>
       <li>Download the latest binary zip</li>
       <li>Unzip to a directory of you choice</li>
-      <li>Add the bin dir of the installation to PATH</li>
-      <li>Create and new env variable called JAVA_HOME pointing to the JDK path</li>
+      <li>Add the <i>bin</i> dir of the installation to PATH</li>
+      <li>Create and new env variable called JAVA_HOME pointing to the <b>JDK</b> path</li>
       <li>Test the Maven installation with command</li>
     </ol>
 
-    <img src="link.png" alt="">
-    <a href="https://maven.apache.org/" id="link">maven.apache.org</a>
-    <p>mvn --version</p>
+
+    <code>mvn --version</code>
   </section>
 
-  <section id="intellij" style="width:100vw; height:100vh; background-color:silver; text-align: center; ">
+  <section id="intellij" >
     <h3>IntelliJ IDEA</h3>
+    <a href="https://www.jetbrains.com/" class="link">jetbrains.com</a>
 
     <ol>
       <li>Download IntelliJ IDEA Community Edition</li>
       <li>Install</li>
     </ol>
-    <img src="link.png" alt="">
-    <a href="https://www.jetbrains.com/" id="link">jetbrains.com</a>
+
   </section>
 
-  <section id="git" style="width:100vw; height:100vh; background-color:silver; text-align: center;">
+  <section id="git">
     <h3>GIT</h3>
-    <a href="https://git-scm.com/">git-scm.com</a>
+
+    <a href="https://git-scm.com/" class="link">git-scm.com</a>
     <ol>
-      <li>Create a new user environment variable called HOME, pointing to your user’s home directory (C:\Users\username)</li>
+      <li>Create a new user environment variable called HOME, pointing to <b>your</b> user’s home directory (C:\Users\<i>username</i>)</li>
       <li>Add the GIT install path to PATH environment variable</li>
-      <li>Test the GIT installation with command git</li>
-      <li>Configure GIT with commands: <br> git config --global user.name “your user” <br>
-        git config --global user.email “your email”</li>
+      <li>Test the GIT installation with command:
+        <code>git</code>
+      </li>
+      <li>Configure GIT with commands:
+        <code>
+          git config --global user.name “your user” <br>
+          git config --global user.email “your email”
+        </code>
+      </li>
     </ol>
-    <img src="link.png" alt="">
-    <a href="https://git-scm.com/" id="link">git-scm.com</a>
+
   </section>
 
-  <section id="gitrepo" style="width:100vw; height:100vh; background-color:silver; text-align: center;">
+  <section id="gitrepo" >
+
     <h3>GIT repository</h3>
+    <a href ="https://about.gitlab.com/" class="link">gitlab.com</a>
     <ol>
       <li>Register</li>
       <li>Create a new repository (project)</li>
       <li>Give developer permissions to my username (adim.moldovan)</li>
     </ol>
-    <img src="link.png" alt="">
 
-    <a href ="https://about.gitlab.com/" id="link">gitlab.com</a>
   </section>
 
-  <section id="browsers" style="width:100vw; height:100vh; background-color:silver; text-align: center; " >
+  <section id="browsers"  >
     <h3>Browsers</h3>
     <ol>
       <li>Install Chrome</li>
