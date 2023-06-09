@@ -7,12 +7,91 @@ function clickMe() {
 }
 
 function readInputText() {
-    var usernameText = document.getElementById("username").value;
-    //alert(usernameText);
-    document.getElementById("result").innerHTML = "the username is " + usernameText;
+    var username = document.getElementById("username");
+    var usernameError = document.getElementById("usernameError");
 
-    if (usernameText.length > 10) {
-        alert("The max size of 10 has been exceeded");
-        document.getElementById("username").style.color="red";
+    if (username.value.length > 10) {
+        usernameError.innerHTML = "The max size of 10 has been exceeded";
+        username.style.color="red";
+    } else if (username.value === '') {
+        usernameError.innerHTML = "Username is Required";
+    } else {
+        usernameError.innerHTML = "";
+        username.style.color="black";
+        return true;
     }
+
+    return false;
+}
+
+function readPassword() {
+console.log('here');
+    var password = document.getElementById("password");
+    var passwordError = document.getElementById("passwordError");
+
+    if (password.value === '') {
+        passwordError.innerHTML = "Password is Required";
+    } else if (password.value.length > 11 || password.value.length < 5) {
+        passwordError.innerHTML = "Password must be between 5 and 10 characters";
+        password.style.color="red";
+    } else {
+        passwordError.innerHTML = "";
+        password.style.color="black";
+        return true;
+    }
+
+    return false;
+}
+
+function readPasswordAgain() {
+console.log('here');
+    var passRepeat = document.getElementById("passrepeat");
+    var passwordMatch = document.getElementById("passwordMatch");
+
+    if (passRepeat.value === '') {
+        passwordMatch.innerHTML = "Password is Required";
+
+
+    } else if (passRepeat.value != password.value) {
+        passwordMatch.innerHTML = "Passwords do not match ";
+        password.style.color="red";
+    } else {
+        passwordMatch.innerHTML = "";
+        password.style.color="black";
+        return true;
+    }
+
+    return false;
+}
+
+
+
+function readAddress() {
+
+    var password = document.getElementById("txtarea1");
+    var addressError = document.getElementById("addressError");
+
+    if (password.value === '') {
+        passwordError.innerHTML = "Address is Required";
+    } else if (txtarea1.value.length > 30 || txtarea1.value.length < 10) {
+        passwordError.innerHTML = "Address must be between 10 and 30 characters";
+        password.style.color="red";
+    } else {
+        passwordError.innerHTML = "";
+        password.style.color="black";
+        return true;
+    }
+
+    return false;
+}
+
+
+
+function validateForm() {
+    readInputText();
+    readPassword();
+    readPasswordAgain();
+    readAddress()
+
+    return readInputText() && readPassword() && readPasswordAgain() && readAddress();
 }
