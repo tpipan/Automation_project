@@ -68,17 +68,17 @@ console.log('here');
 
 function readAddress() {
 
-    var password = document.getElementById("txtarea1");
+    var address = document.getElementById("txtarea1");
     var addressError = document.getElementById("addressError");
 
-    if (password.value === '') {
-        passwordError.innerHTML = "Address is Required";
+    if (txtarea1.value === '') {
+        addressError.innerHTML = "Address is Required";
     } else if (txtarea1.value.length > 30 || txtarea1.value.length < 10) {
-        passwordError.innerHTML = "Address must be between 10 and 30 characters";
+        addressError.innerHTML = "Address must be between 10 and 30 characters";
         password.style.color="red";
     } else {
-        passwordError.innerHTML = "";
-        password.style.color="black";
+        addressError.innerHTML = "";
+        address.style.color="black";
         return true;
     }
 
@@ -87,11 +87,15 @@ function readAddress() {
 
 
 
+
+
+
 function validateForm() {
     readInputText();
     readPassword();
     readPasswordAgain();
     readAddress()
+
 
     return readInputText() && readPassword() && readPasswordAgain() && readAddress();
 }

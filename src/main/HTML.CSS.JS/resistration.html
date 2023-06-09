@@ -51,7 +51,7 @@
             </td>
             <td>
                 <textarea id="txtarea1" onkeyup="readAddress"></textarea>
-                span class="error-message" id="addressError"></span>
+                <span class="error-message" id="addressError"></span>
             </td>
         </tr>
         <tr>
@@ -59,7 +59,8 @@
                 <label class="labels" for="email">Email</label>
             </td>
             <td>
-                <input type="email" id="email"/>
+                <input type="email" id="email" onkeyup="readEmail()"/>
+                <span class="error-message" id="emailError"></span>
             </td>
         </tr>
          </table>
