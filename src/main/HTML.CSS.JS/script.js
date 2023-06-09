@@ -44,14 +44,11 @@ console.log('here');
 }
 
 function readPasswordAgain() {
-console.log('here');
     var passRepeat = document.getElementById("passrepeat");
     var passwordMatch = document.getElementById("passwordMatch");
 
     if (passRepeat.value === '') {
         passwordMatch.innerHTML = "Password is Required";
-
-
     } else if (passRepeat.value != password.value) {
         passwordMatch.innerHTML = "Passwords do not match ";
         password.style.color="red";
@@ -64,16 +61,13 @@ console.log('here');
     return false;
 }
 
-
-
 function readAddress() {
-
-    var address = document.getElementById("txtarea1");
+    var address = document.getElementById("textarea");
     var addressError = document.getElementById("addressError");
 
-    if (txtarea1.value === '') {
+    if (address.value === '') {
         addressError.innerHTML = "Address is Required";
-    } else if (txtarea1.value.length > 30 || txtarea1.value.length < 10) {
+    } else if (address.value.length > 30 || address.value.length < 10) {
         addressError.innerHTML = "Address must be between 10 and 30 characters";
         password.style.color="red";
     } else {
@@ -85,17 +79,32 @@ function readAddress() {
     return false;
 }
 
+function readEmail() {
+    var email = document.getElementById("email");
+    var emailError = document.getElementById("emailError");
 
+    var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
+    if(mailFormat.test(email.value)) {
+        emailError.innerHTML = "";
+        email.style.color="black";
+        return true;
+    } else if (email.value === '') {
+        emailError.innerHTML = "Email is Required";
+    } else {
+        emailError.innerHTML = "Email format is invalid";
+        email.style.color="red";
+    }
 
-
+    return false;
+}
 
 function validateForm() {
     readInputText();
     readPassword();
     readPasswordAgain();
-    readAddress()
+    readAddress();
+    readEmail();
 
-
-    return readInputText() && readPassword() && readPasswordAgain() && readAddress();
+    return readInputText() && readPassword() && readPasswordAgain() && readAddress() && readEmail();
 }
