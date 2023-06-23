@@ -1,4 +1,4 @@
-package ro.sit.homework.Homework02;
+package homework.Homework02;
 
 public class LeapYear {
     public static void main(String[] args) {

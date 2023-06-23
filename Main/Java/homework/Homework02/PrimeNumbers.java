@@ -1,6 +1,4 @@
-package ro.sit.homework.Homework02;
-
-import java.text.Format;
+package homework.Homework02;
 
 public class PrimeNumbers {
     public static void main(String[] args) {
