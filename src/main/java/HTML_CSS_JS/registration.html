@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AUTO 12 REGISTRATION PAGE</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="header">
+  <h1>
+    <span> Registration form</span>
+
+  </h1>
+
+</div>
+<form onsubmit="return validateForm()">
+  <fieldset>
+    <table>
+      <tr>
+        <td>
+          <label for="username" class="labels" id="l1">Username</label>
+        </td>
+        <td>
+          <input type="text" id="username" onkeyup="readInputText()"/>
+          <span class="error-message" id="usernameError"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password" class="labels">Password</label>
+        </td>
+        <td>
+          <input type="password" id="password" onkeyup="readPassword()" />
+          <span class="error-message" id="passwordError"></span>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="passrepeat" class="labels">Repeat password</label>
+        </td>
+        <td>
+          <input type="password" id="passrepeat" onkeyup="readPasswordAgain()"/>
+          <span class="error-message" id="passwordMatch"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="textarea" class="labels">Address</label>
+        </td>
+        <td>
+          <textarea id="textarea" onkeyup="readAddress()"></textarea>
+          <span class="error-message" id="addressError"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label class="labels" for="email">Email</label>
+        </td>
+        <td>
+          <input type="email" id="email" onkeyup="readEmail()"/>
+          <span class="error-message" id="emailError"></span>
+        </td>
+      </tr>
+    </table>
+    <div >
+      <input class="button" type="submit" id="submitbutton"/>
+      <input class="button"type="reset" id="resetbutton"/>
+      <button class="button" type="button" value="button1" id="b1" onclick="clickMe();">My Button</button>
+    </div>
+
+    <div>
+
+      <img src="travels.jpg" id="img1" class="images"/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Black_Sea_map.png" id="img2" class="images"/> <br/>
+      <a href="https://wikipedia.com/" id="link1">Click here for wikipedia</a> <br/>
+      <br>
+      <a href="https://github.com/alexgatu/Automation_12/blob/master/src/main/HTML_CSS_JS/registration.html" target="_blank" id="link2">
+        Click here for the GitHub page of this file</a>
+    </div>
+  </fieldset>
+</form>
+
+<div id="result">
+
+</div>
+</body>
+</html>
