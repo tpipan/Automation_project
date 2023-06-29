@@ -1,4 +1,4 @@
-package course03;
+package course03_04;
 
 public class Shapes {
     public static void main(String[] args) {
