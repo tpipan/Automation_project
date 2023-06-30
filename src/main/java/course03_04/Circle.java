@@ -2,16 +2,32 @@
 
 package course03_04;
 
-    public class Circle {
 
-        double radius;
+import java.awt.*;
 
+public class Circle extends Shape {
 
-        void setRadius(double rad) {
-            radius = rad;
+            double radius;
+
+            public Circle() {
+                super(Color.BLACK);
+            }
+
+            public Circle(Color color, double radius) {
+                super(color);
+                this.radius = radius;
+            }
+
+            void setRadius(double rad) {
+                radius = rad;
+            }
+
+            double getArea() {
+                return 3.14 * (radius * radius);
+            }
+
+            public void protectedMthCircle() {
+                super.shapeProtectedMethod();
+            }
+
         }
-
-        double getArea() {
-            return 3.14 * (radius * radius);
-        }
-    }

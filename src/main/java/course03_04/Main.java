@@ -1,7 +1,7 @@
 package course03_04;
 
 public class Main {
-    public static  void test(String[] args) {
+    public static  void main(String[] args) {
         // null object. Throws NullPointerException
 //        Circle circle = null;
 //        System.out.println(circle.radius);
