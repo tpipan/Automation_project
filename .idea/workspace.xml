@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Modificari noi Collections">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework04/petHotel/PetHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework04/petHotel/PetHotel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/course03_04/Course04.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2RrwbmhkQZ72dmA9tsnIzReXLty" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pipan/Desktop/Automation/mavenProject/Automation_project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="course_06" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.homework04.Catalog.Main">
+    <configuration name="Draw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course03_04.Draw" />
+      <module name="Automation_project" />
+      <option name="PROGRAM_PARAMETERS" value="10 10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course03_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawShape" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework03.DrawShape" />
+      <module name="Automation_project" />
+      <option name="PROGRAM_PARAMETERS" value="10 10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework04.petHotel.Main" />
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework04.petHotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetHotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework04.petHotel.PetHotel" />
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework04.petHotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Square" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="homework03.SquareMargin" />
+      <module name="Automation_project" />
+      <option name="PROGRAM_PARAMETERS" value="8,8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Truck" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Course_05.Course05" />
+      <module name="Automation_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework04.Catalog.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework04.Catalog.Main" />
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework04.Catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DrawShape" />
+      <item itemvalue="Application.Square" />
+      <item itemvalue="Application.Truck" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.homework04.Catalog.Main" />
+      <item itemvalue="Application.PetHotel" />
+      <item itemvalue="Application.Draw" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.homework04.Catalog.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PetHotel" />
+        <item itemvalue="Application.Draw" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="" />
+      <created>1688021583425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688021583425</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Draw shape corners">
+      <created>1688135264277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688135264277</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Course 04 exercise">
+      <created>1688143395279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688143395279</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finalizare tema Catalog">
+      <created>1689113243699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689113243699</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modificari noi Collections">
+      <created>1689433647737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689433647737</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modificari noi Collections">
+      <created>1689433866420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689433866420</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Draw shape corners" />
+    <MESSAGE value="Course 04 exercise" />
+    <MESSAGE value="Finalizare tema Catalog" />
+    <MESSAGE value="Modificari noi Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificari noi Collections" />
+  </component>
+</project>
