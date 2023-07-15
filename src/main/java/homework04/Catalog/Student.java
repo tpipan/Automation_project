@@ -1,4 +1,4 @@
-package homework04;
+package homework04.Catalog;
 
 public class Student {
     public String name;

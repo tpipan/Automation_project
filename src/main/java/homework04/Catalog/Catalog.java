@@ -1,4 +1,4 @@
-package homework04;
+package homework04.Catalog;
 
 import java.util.*;
 
