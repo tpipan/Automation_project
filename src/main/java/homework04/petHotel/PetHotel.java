@@ -11,7 +11,7 @@ public class PetHotel {
 
     public void checkIn(String name, Integer roomNumber) {
         // verific daca cainele este checked in inainte sa il adaug
-        if (isDogCheckedIn(name) == false) {
+        if (!isDogCheckedIn(name)) {
             Dog dog = new Dog(name, roomNumber);
             guests.add(dog);
         }

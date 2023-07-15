@@ -1,73 +1,46 @@
 package homework04.Catalog;
-
 import java.util.*;
 
 public class Catalog {
-    public static void main(String[] args) {
 
-        Catalog catalog = new Catalog();
+    HashMap<String, Double> setList = new HashMap<>();
 
-        HashMap<String, Double> setList = new HashMap<>();
-
-        catalog.addNewStudent(setList, "Macovei Elena", 9.00);
-        catalog.addNewStudent(setList, "Gheorghe Dan", 8.00);
-        catalog.addNewStudent(setList, "Petrescu Olivia", 7.00);
-        catalog.addNewStudent(setList, "Dan Robert", 9.50);
-        catalog.addNewStudent(setList, "Mandru Ion", 8.60);
-        catalog.addNewStudent(setList, "Stefanescu Anda", 7.80);
-
-        catalog.displayStudentNames(setList);
-
-        catalog.addNewStudent(setList, "Vlad Ion", 10.00);
-
-        catalog.checkStudentByName(setList, "Vlad Ion");
-
-        catalog.deleteStudent(setList, "Dan Robert");
-
-        catalog.alphabeticalOrder(setList);
-
-        catalog.gradeOrder(setList);
-
-    }
-
-
-    private void displayStudentNames(HashMap<String, Double> list) {
+    public void displayStudentNames() {
         System.out.println("Display all student names:");
-        for (Object student : list.keySet()) {
+        for (Object student : setList.keySet()) {
             System.out.println(student);
         }
     }
-
-    private void addNewStudent(HashMap<String, Double> map, String name, Double finalGrade) {
-        map.put(name, finalGrade);
+    public void addNewStudent(String name, Double finalGrade) {
+        setList.put(name, finalGrade);
     }
 
-    private void checkStudentByName(HashMap<String, Double> list, String studentName) {
+    public void checkStudentByName(String studentName) {
         System.out.println("Check student by name:");
-        for (String student : list.keySet()) {
+        for (String student : setList.keySet()) {
             if (student.contains(studentName)) {
                 System.out.println("Student Name: " + student);
-                System.out.println("Student Grade: " + list.get(student));
+                System.out.println("Student Grade: " + setList.get(student));
             }
         }
     }
 
-    private void deleteStudent(HashMap<String, Double> list, String name) {
-        list.remove(name);
+    public void deleteStudent(String name) {
+        setList.remove(name);
         System.out.println("Deleted Student with name: " + name);
     }
 
-    private void alphabeticalOrder(HashMap<String, Double> list) {
+    public void alphabeticalOrder() {
         System.out.println("Students in alphabetical order:");
-        Map<String, Double> sortedMap = new TreeMap<>(list);
+        Map<String, Double> sortedMap = new TreeMap<>(setList);
 
         for (String student : sortedMap.keySet()) {
             System.out.println(student);
         }
     }
 
-    private void gradeOrder(HashMap<String, Double> hashMap) {
-        List<Map.Entry<String, Double>> entryList = new ArrayList<>(hashMap.entrySet());
+    public void gradeOrder() {
+        List<Map.Entry<String, Double>> entryList = new ArrayList<>(setList.entrySet());
         Collections.sort(entryList, new Comparator<Map.Entry<String, Double>>() {
             public int compare(Map.Entry<String, Double> entry1, Map.Entry<String, Double> entry2) {
                 return entry1.getValue().compareTo(entry2.getValue());
