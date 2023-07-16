@@ -41,6 +41,30 @@ public class CalculatorTestClass {
         System.out.println("Result after compute: " + result);
         Assert.assertEquals(125, result, 0);
     }
+// I added the testAdditionOfNegativeNumbers,testAdditionOfNegativeAndPositiveNumbers, testAdditionOfRationalNumbers and testAdditionOfRationalNumbers to the "+" operator
+    @Test()
+    public void testAdditionOfNegativeNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-3, -24, "+");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(-27, result, 0);
+    }
+
+    @Test()
+    public void testAdditionOfNegativeAndPositiveNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-3, 6, "+");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(3, result, 0);
+    }
+
+    @Test()
+    public void testAdditionOfRationalNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(7.2, 10.6, "+");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(17.8, result, 0);
+    }
 
     @Test()
     public void testSubtraction() {
@@ -48,6 +72,23 @@ public class CalculatorTestClass {
         result = calculator.compute(20, 1, "-");
         System.out.println("Result after compute: " + result);
         Assert.assertEquals(19, result, 0);
+    }
+//     I added the testSubtractionOfNegativeAndPositiveNumbers, estSubtractionOfTwoNegativeNumber to the "-" operator
+
+    @Test()
+    public void testSubtractionOfNegativeAndPositiveNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-3, 20, "-");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(-23, result, 0);
+    }
+
+    @Test()
+    public void testSubtractionOfTwoNegativeNumber() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-5, -10, "-");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(5, result, 0);
     }
 
     @Test()
@@ -57,6 +98,24 @@ public class CalculatorTestClass {
         System.out.println("Result after compute: " + result);
         Assert.assertEquals(132, result, 0);
     }
+// I added the testMultiplyNegativeNumbers, testMultiplyRationalNumbers to the "*" operator
+
+    @Test()
+    public void testMultiplyNegativeNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-10, -12, "*");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(120, result, 0);
+    }
+
+    @Test()
+    public void testMultiplyRationalNumbers() {
+        System.out.println("Initial result:" + result);
+        result = calculator.compute(5.6, 12.3, "*");
+        System.out.println("Result after compute:" + result);
+        Assert.assertEquals(68.88,result,0);
+    }
+
 
     @Test()
     public void testDivide() {
@@ -82,5 +141,43 @@ public class CalculatorTestClass {
         result = calculator.compute(50, 0, "/");
         System.out.println("Result after compute: " + result);
         Assert.assertEquals(10, result, 0);
+    }
+
+//   I added the testDivideByNegativeNumbers and the testDivideNumberByItself to the  "/" operator
+
+    @Test()
+    public void testDivideByNegativeNumbers() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(-10, -2, "/");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(5, result, 0);
+    }
+
+    @Test()
+    public void testDivideNumberByItself() {
+        System.out.println("Initial result: " + result);
+        result = calculator.compute(9, 9, "/");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(1, result, 0);
+    }
+
+//Unsupported Operator
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testUnsupportedOperatorWithoutFail() {
+        System.out.println("Initial result: " + result);
+        System.out.println("It will not work because the calculator cannot handle this operator");
+        result = calculator.compute(30, 0, "~");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(1, result, 0);
+    }
+
+    @Test()
+    public void testUnsupportedOperatorWithFail() {
+        System.out.println("Initial result: " + result);
+        System.out.println("It will not work because the calculator cannot handle this operator");
+        result = calculator.compute(30, 0, "~");
+        System.out.println("Result after compute: " + result);
+        Assert.assertEquals(1, result, 0);
     }
 }
