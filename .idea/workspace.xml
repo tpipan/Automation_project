@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Modificari noi Collections">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework04/Catalog/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework04/petHotel/PetHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework04/petHotel/PetHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course_06/CalculatorTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course_06/CalculatorTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course_06/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course_06/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,51 +59,11 @@
       <recent name="course_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework04.Catalog.Main">
-    <configuration name="Draw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course03_04.Draw" />
-      <module name="Automation_project" />
-      <option name="PROGRAM_PARAMETERS" value="10 10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course03_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTestClass">
     <configuration name="DrawShape" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework03.DrawShape" />
       <module name="Automation_project" />
       <option name="PROGRAM_PARAMETERS" value="10 10" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework04.petHotel.Main" />
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework04.petHotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetHotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework04.petHotel.PetHotel" />
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework04.petHotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,15 +83,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework04.Catalog.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework04.Catalog.Main" />
+    <configuration name="CalculatorTestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework04.Catalog.*" />
+          <option name="PATTERN" value="course_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="course_06" />
+      <option name="MAIN_CLASS_NAME" value="course_06.CalculatorTestClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTestClass.testDivideByZeroWithoutFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course_06" />
+      <option name="MAIN_CLASS_NAME" value="course_06.CalculatorTestClass" />
+      <option name="METHOD_NAME" value="testDivideByZeroWithoutFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTestClass.testMultiplyByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course_06" />
+      <option name="MAIN_CLASS_NAME" value="course_06.CalculatorTestClass" />
+      <option name="METHOD_NAME" value="testMultiplyByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTestClass.testUnsupportedOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course_06" />
+      <option name="MAIN_CLASS_NAME" value="course_06.CalculatorTestClass" />
+      <option name="METHOD_NAME" value="testUnsupportedOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTestClass.testUnsupportedOperatorWithFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course_06" />
+      <option name="MAIN_CLASS_NAME" value="course_06.CalculatorTestClass" />
+      <option name="METHOD_NAME" value="testUnsupportedOperatorWithFail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,17 +166,19 @@
       <item itemvalue="Application.DrawShape" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.Truck" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.homework04.Catalog.Main" />
-      <item itemvalue="Application.PetHotel" />
-      <item itemvalue="Application.Draw" />
+      <item itemvalue="JUnit.CalculatorTestClass" />
+      <item itemvalue="JUnit.CalculatorTestClass.testDivideByZeroWithoutFail" />
+      <item itemvalue="JUnit.CalculatorTestClass.testMultiplyByZero" />
+      <item itemvalue="JUnit.CalculatorTestClass.testUnsupportedOperator" />
+      <item itemvalue="JUnit.CalculatorTestClass.testUnsupportedOperatorWithFail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework04.Catalog.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PetHotel" />
-        <item itemvalue="Application.Draw" />
+        <item itemvalue="JUnit.CalculatorTestClass" />
+        <item itemvalue="JUnit.CalculatorTestClass.testUnsupportedOperatorWithFail" />
+        <item itemvalue="JUnit.CalculatorTestClass.testUnsupportedOperator" />
+        <item itemvalue="JUnit.CalculatorTestClass.testMultiplyByZero" />
+        <item itemvalue="JUnit.CalculatorTestClass.testDivideByZeroWithoutFail" />
       </list>
     </recent_temporary>
   </component>
@@ -200,8 +226,40 @@
       <option name="project" value="LOCAL" />
       <updated>1689433866420</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modificari noi Collections">
+      <created>1689436351952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689436351952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modificari noi Collections">
+      <created>1689436470527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689436470527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modificari noi Collections">
+      <created>1689436495857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689436495857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Draw shape corners" />
