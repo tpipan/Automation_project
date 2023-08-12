@@ -161,7 +161,7 @@ public class CalculatorTestClass {
         Assert.assertEquals(1, result, 0);
     }
 
-//Unsupported Operator
+    //Unsupported Operator
 
     @Test(expected = IllegalArgumentException.class)
     public void testUnsupportedOperatorWithoutFail() {
