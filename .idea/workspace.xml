@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Cookie,alerts,hover,modal">
+    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Modificare Assert la tema">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AlertsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AlertsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CookieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CookieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,18 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookieTest.SetCookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActionsTest.clickFirstDropDownOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkCoockies.Tests.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeworkCoockies.Tests" />
-      <option name="MAIN_CLASS_NAME" value="HomeworkCoockies.Tests.CookieTest" />
-      <option name="METHOD_NAME" value="SetCookie" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ActionsTest" />
+      <option name="METHOD_NAME" value="clickFirstDropDownOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookieTest.deleteAllCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTest.openPromptDialogAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
-      <option name="METHOD_NAME" value="deleteAllCookies" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AlertsTest" />
+      <option name="METHOD_NAME" value="openPromptDialogAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,19 +188,19 @@
       <item itemvalue="Application.DrawShape" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.Truck" />
-      <item itemvalue="JUnit.CookieTest.SetCookie" />
+      <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
       <item itemvalue="TestNG.AlertsTest.openAlert" />
+      <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
       <item itemvalue="TestNG.CookieTest.deleteCookie" />
-      <item itemvalue="TestNG.CookieTest.deleteAllCookies" />
       <item itemvalue="TestNG.CookieTest.printCookie" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CookieTest.deleteCookie" />
+        <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
+        <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
         <item itemvalue="TestNG.AlertsTest.openAlert" />
         <item itemvalue="TestNG.CookieTest.printCookie" />
-        <item itemvalue="TestNG.CookieTest.deleteAllCookies" />
-        <item itemvalue="JUnit.CookieTest.SetCookie" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692354151525</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modificare Assert la tema">
+      <created>1692355767832</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692355767832</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +326,8 @@
     <MESSAGE value="Tema Junit" />
     <MESSAGE value="Adaugare de teste noi" />
     <MESSAGE value="Cookie,alerts,hover,modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cookie,alerts,hover,modal" />
+    <MESSAGE value="Modificare Assert la tema" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificare Assert la tema" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,11 +346,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/HomeworkCoockies/Tests/CookieTest.java</url>
           <line>14</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/CookieTest.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

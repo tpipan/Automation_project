@@ -11,23 +11,18 @@ public class AlertsTest extends BaseTest {
     AlertsPage alertsPage;
 
 
-//    @Test
-//    public void openAlert() {
-//        loginPage = new LoginPage(driver);
-//        loginPage.goToAlertsPage();
-//        alertsPage = new AlertsPage(driver);
-//        Assert.assertTrue(alertsPage.openAlertButtonIsDisplayed());
-//        alertsPage.openAlert();
-//        Alert alert = driver.switchTo().alert();
-//        System.out.println(alert.getText());
-//        alert.accept();
-////        alertsPage.openConfirmationAlert();
-
-
     @Test
-    public void openAlert(){
+    public void openAlert() {
         loginPage = new LoginPage(driver);
         loginPage.goToAlertsPage();
+        alertsPage = new AlertsPage(driver);
+        Assert.assertTrue(alertsPage.openAlertButtonIsDisplayed());
+        alertsPage.openAlert();
+        Alert alert = driver.switchTo().alert();
+        System.out.println(alert.getText());
+        alert.accept();
+        alertsPage.openConfirmationAlert();
+
     }
 
     @Test

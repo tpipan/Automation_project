@@ -3,7 +3,6 @@ package Tests;
 import PageObjects.CookiePage;
 import PageObjects.LoginPage;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -100,6 +99,7 @@ public class CookieTest extends BaseTest {
         Assert.assertEquals(driver.manage().getCookieNamed("CookieName").toString(), "CookieName=CookieValue; path=/; domain=adimoldovan.github.io;secure;");
 
         driver.manage().deleteCookie(cookie);
-        Assert.assertEquals(driver.manage().getCookieNamed("CookieName"), null);
+
+        Assert.assertNull(driver.manage().getCookieNamed("CookieName"), "Cookie has been deleted");
     }
 }
