@@ -4,8 +4,10 @@ import Utils.BrowserUtils;
 import Utils.ConfigUtils;
 import Utils.ConstantUtils;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 
@@ -25,9 +27,18 @@ public class BaseTest {
         driver = BrowserUtils.getBrowser(browser);
     }
 
-    @AfterMethod(alwaysRun = true)
-    public void cleanUp() {
-        if (driver != null)
-            driver.quit();
+    @BeforeMethod
+    public void startBrowser() {
+        String browserName = ConfigUtils.getGenericElement(ConstantUtils.CONFIG_FILE, "browser");
+        setUpDriver(browserName);
+        driver.get(baseUrl);
     }
+
+//    @AfterMethod(alwaysRun = true)
+//    public void cleanUp() {
+//        if (driver != null)
+//            driver.quit();
+//    }
+//
+
 }

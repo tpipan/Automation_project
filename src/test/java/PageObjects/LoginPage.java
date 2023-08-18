@@ -1,5 +1,5 @@
 package PageObjects;
-
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +31,21 @@ public class LoginPage {
 
     @FindBy(xpath = "//input[@id='pass']/../..//small")
     private WebElement passErr;
+
+    @FindBy(css = "a[href*='cookie']")
+    private WebElement cookieButtonElement;
+
+    @FindBy(css = "a[href*='alerts']")
+    private WebElement alertsButtonElement;
+
+    @FindBy(css = "a[href*='hover']")
+    private WebElement hoverButtonElement;
+
+    @FindBy(css = "a[href*='modal']")
+    private WebElement modalButtonElement;
+
+    @FindBy(css = "a[href*='signup']")
+    private WebElement signUpButtonElement;
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -67,4 +82,38 @@ public class LoginPage {
             return "";
         }
     }
+
+    public CookiePage goToCookiePage() {
+        wait.until(ExpectedConditions.visibilityOf(cookieButtonElement));
+        cookieButtonElement.click();
+        Cookie cookie = new Cookie("cookiePageTitle", "The gibberish talking cookie");
+        driver.manage().addCookie(cookie);
+        return new CookiePage(driver);
+//        return null;
+    }
+
+    public void goToAlertsPage() {
+        wait.until(ExpectedConditions.visibilityOf(alertsButtonElement));
+        alertsButtonElement.click();
+    }
+
+    public void goToHoverPage() {
+        wait.until(ExpectedConditions.visibilityOf(hoverButtonElement));
+        hoverButtonElement.click();
+    }
+
+    public void goToModalPage() {
+        wait.until(ExpectedConditions.visibilityOf(modalButtonElement));
+        modalButtonElement.click();
+    }
+
+    public void goToRegistrationPage() {
+        signUpButtonElement.click();
+    }
+
+//    public CookiePage goToCookiePage() {
+//        wait.until(ExpectedConditions.visibilityOf(cookieButtonElement));
+//        cookieButtonElement.click();
+//        return new CookiePage(driver);
+//    }
 }

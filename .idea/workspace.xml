@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Tema Junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Course_08/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Course_08/myFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/pageobject/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/tests/NegativeRegisterPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/tests/SetUpRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ConstantUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Adaugare de teste noi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/CookiePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/HoverPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ModalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AlertsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CookiesGoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ModalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course_06/CalculatorTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course_06/CalculatorTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,7 @@
       <recent name="Homework_Register" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NegativeRegisterPageTest.differentPasswordTest">
+  <component name="RunManager" selected="TestNG.AlertsTest.openAlert">
     <configuration name="DrawShape" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework03.DrawShape" />
       <module name="Automation_project" />
@@ -111,17 +104,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeRegisterPageTest.InvalidLongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookieTest.SetCookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="PATTERN" value="HomeworkCoockies.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework.tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
-      <option name="METHOD_NAME" value="InvalidLongUsernameTest" />
+      <option name="PACKAGE_NAME" value="HomeworkCoockies.Tests" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkCoockies.Tests.CookieTest" />
+      <option name="METHOD_NAME" value="SetCookie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsTest.openAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AlertsTest" />
+      <option name="METHOD_NAME" value="openAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,17 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeRegisterPageTest.differentPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookieTest.deleteAllCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework.tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
-      <option name="METHOD_NAME" value="differentPasswordTest" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
+      <option name="METHOD_NAME" value="deleteAllCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,17 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeRegisterPageTest.emptyDataTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookieTest.deleteCookie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework.tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
-      <option name="METHOD_NAME" value="emptyDataTest" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
+      <option name="METHOD_NAME" value="deleteCookie" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,35 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeRegisterPageTest.invalidPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookieTest.printCookie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework.tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
-      <option name="METHOD_NAME" value="invalidPasswordTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeRegisterPageTest.invalidUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework.tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
-      <option name="METHOD_NAME" value="invalidUsernameTest" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
+      <option name="METHOD_NAME" value="printCookie" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -205,19 +196,19 @@
       <item itemvalue="Application.DrawShape" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.Truck" />
-      <item itemvalue="TestNG.NegativeRegisterPageTest.emptyDataTest" />
-      <item itemvalue="TestNG.NegativeRegisterPageTest.invalidUsernameTest" />
-      <item itemvalue="TestNG.NegativeRegisterPageTest.differentPasswordTest" />
-      <item itemvalue="TestNG.NegativeRegisterPageTest.InvalidLongUsernameTest" />
-      <item itemvalue="TestNG.NegativeRegisterPageTest.invalidPasswordTest" />
+      <item itemvalue="JUnit.CookieTest.SetCookie" />
+      <item itemvalue="TestNG.AlertsTest.openAlert" />
+      <item itemvalue="TestNG.CookieTest.deleteCookie" />
+      <item itemvalue="TestNG.CookieTest.deleteAllCookies" />
+      <item itemvalue="TestNG.CookieTest.printCookie" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NegativeRegisterPageTest.differentPasswordTest" />
-        <item itemvalue="TestNG.NegativeRegisterPageTest.invalidPasswordTest" />
-        <item itemvalue="TestNG.NegativeRegisterPageTest.InvalidLongUsernameTest" />
-        <item itemvalue="TestNG.NegativeRegisterPageTest.invalidUsernameTest" />
-        <item itemvalue="TestNG.NegativeRegisterPageTest.emptyDataTest" />
+        <item itemvalue="TestNG.AlertsTest.openAlert" />
+        <item itemvalue="TestNG.CookieTest.deleteCookie" />
+        <item itemvalue="TestNG.CookieTest.printCookie" />
+        <item itemvalue="TestNG.CookieTest.deleteAllCookies" />
+        <item itemvalue="JUnit.CookieTest.SetCookie" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689508602616</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adaugare de teste noi">
+      <created>1691817371793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691817371793</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +318,8 @@
     <MESSAGE value="Finalizare tema Catalog" />
     <MESSAGE value="Modificari noi Collections" />
     <MESSAGE value="Tema Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema Junit" />
+    <MESSAGE value="Adaugare de teste noi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaugare de teste noi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,6 +328,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginTest.java</url>
           <line>45</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HomeworkCoockies/Tests/NewCookieTest</url>
+          <line>21</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HomeworkCoockies/Tests/CookieTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
