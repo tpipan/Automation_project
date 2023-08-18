@@ -51,7 +51,7 @@ public class CookieTest extends BaseTest {
                 "Incorrect cookie values");
         consentCookie = driver.manage().getCookieNamed("gibberish");
         Assert.assertNull(consentCookie, "Cookie is still present");
-        
+
     }
 
 
@@ -95,14 +95,11 @@ public class CookieTest extends BaseTest {
         cookiePage = new CookiePage(driver);
 
         Cookie cookie = new Cookie("CookieName", "CookieValue");
-        driver.manage().addCookie(cookie);
-      driver.manage().deleteCookie(cookie);
 
-        Set<Cookie> updatedCookies = driver.manage().getCookies();
-        for (Cookie updatedcookie : updatedCookies) {
-            System.out.println(updatedcookie.getName() + ":" + updatedcookie.getValue());
-        }
-        System.out.println("-----------------------");
-        Cookie updateCookie = new Cookie("CookieName", "CookieValue");
+        driver.manage().addCookie(cookie);
+        Assert.assertEquals(driver.manage().getCookieNamed("CookieName").toString(), "CookieName=CookieValue; path=/; domain=adimoldovan.github.io;secure;");
+
+        driver.manage().deleteCookie(cookie);
+        Assert.assertEquals(driver.manage().getCookieNamed("CookieName"), null);
     }
 }
