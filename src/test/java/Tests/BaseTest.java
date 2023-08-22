@@ -13,6 +13,9 @@ public class BaseTest {
 
     public WebDriver driver;
     String baseUrl;
+    String dbHostname, dbPort, dbUser, dbPassword, dbSchema;
+
+
 
     @BeforeClass
     public void setUp() {
@@ -34,11 +37,11 @@ public class BaseTest {
         driver.get(baseUrl);
     }
 
-//    @AfterMethod(alwaysRun = true)
-//    public void cleanUp() {
-//        if (driver != null)
-//            driver.quit();
-//    }
-//
+    @AfterMethod(alwaysRun = true)
+    public void cleanUp() {
+        if (driver != null)
+            driver.quit();
+    }
+
 
 }
