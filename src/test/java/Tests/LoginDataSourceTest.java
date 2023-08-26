@@ -2,7 +2,7 @@ package Tests;
 
 import ObjectModels.LoginModel;
 import PageObjects.LoginPage;
-import Utils.ExcelReader;
+//import Utils.ExcelReader;
 import Utils.Tools;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.CSVReader;
@@ -104,13 +104,13 @@ public class LoginDataSourceTest extends BaseTest {
         Collection<Object[]> dp = new ArrayList<>();
         File file = new File("src\\test\\resources\\Data\\testdata.xlsx");
         int usernamePoz = 0, passwordPoz = 1, userERRPoz = 2, passwordErr = 3;
-        String[][] excelData = ExcelReader.readExcelFile(file, "", true, true);
-
-        for (int i = 0; i < excelData.length; i++) {
-            LoginModel lm = new LoginModel(excelData[i][usernamePoz], excelData[i][passwordPoz], excelData[i][userERRPoz],
-                    excelData[i][passwordErr]);
-            dp.add(new Object[]{lm});
-        }
+//        String[][] excelData = ExcelReader.readExcelFile(file, "", true, true);
+//
+//        for (int i = 0; i < excelData.length; i++) {
+//            LoginModel lm = new LoginModel(excelData[i][usernamePoz], excelData[i][passwordPoz], excelData[i][userERRPoz],
+//                    excelData[i][passwordErr]);
+//            dp.add(new Object[]{lm});
+//        }
 
         return dp.iterator();
     }

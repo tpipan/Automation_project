@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Modificare Assert la tema">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/AccountModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/LoginModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +72,12 @@
       <recent name="Homework_Register" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CookieTest.deleteCookie">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.AlertsTest.openAlert">
     <configuration name="DrawShape" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework03.DrawShape" />
       <module name="Automation_project" />
@@ -178,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookieTest.printCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -187,8 +182,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
-      <option name="METHOD_NAME" value="printCookie" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -200,19 +195,19 @@
       <item itemvalue="Application.DrawShape" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.Truck" />
+      <item itemvalue="TestNG.LoginTest.login" />
       <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
       <item itemvalue="TestNG.AlertsTest.openAlert" />
       <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
       <item itemvalue="TestNG.CookieTest.deleteCookie" />
-      <item itemvalue="TestNG.CookieTest.printCookie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertsTest.openAlert" />
         <item itemvalue="TestNG.CookieTest.deleteCookie" />
+        <item itemvalue="TestNG.LoginTest.login" />
         <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
         <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
-        <item itemvalue="TestNG.AlertsTest.openAlert" />
-        <item itemvalue="TestNG.CookieTest.printCookie" />
       </list>
     </recent_temporary>
   </component>
@@ -351,11 +346,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HomeworkCoockies/Tests/NewCookieTest</url>
           <line>21</line>

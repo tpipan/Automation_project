@@ -20,6 +20,8 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         baseUrl = ConfigUtils.getGenericElement(ConstantUtils.CONFIG_FILE, "hostname");
+        System.out.println("the base" + baseUrl);
+
     }
 
     public void setUpDriver(String browserName) {
