@@ -1,8 +1,7 @@
 package course_06;
-
 public class Calculator {
 
-    double compute(double firstParam, double secondParam, String operator)
+    public double compute(double firstParam, double secondParam, String operator)
             throws IllegalArgumentException {
         double result;
         switch (operator) {

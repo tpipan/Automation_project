@@ -4,12 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="Modificare Assert la tema">
+    <list default="true" id="c6e1a440-8e9f-4a9f-8677-b98c813959f0" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseCountriesControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseEmployeesControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CountriesApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/EmployeesApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/GenericUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apiConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Course_08/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Course_08/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Course_08/myFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Course_08/myFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course_06/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course_06/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/pageobject/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/pageobject/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CookiePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/CookiePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/HoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/HoverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ModalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit/MyFirstTestNGTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +60,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -52,9 +76,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/pipan/Desktop/Automation/mavenProject/Automation_project/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/pipan/Desktop/Automation/mavenProject/Automation_project/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,10 +99,12 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean install --skiptTests" />
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AlertsTest.openAlert">
+  <component name="RunManager" selected="TestNG.NegativeRegisterPageTest">
     <configuration name="DrawShape" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework03.DrawShape" />
       <module name="Automation_project" />
@@ -101,61 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsTest.clickFirstDropDownOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ActionsTest" />
-      <option name="METHOD_NAME" value="clickFirstDropDownOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTest.openAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AlertsTest" />
-      <option name="METHOD_NAME" value="openAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTest.openPromptDialogAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AlertsTest" />
-      <option name="METHOD_NAME" value="openPromptDialogAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CookieTest.deleteCookie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CookieTest.printCookie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.CookieTest" />
-      <option name="METHOD_NAME" value="deleteCookie" />
+      <option name="METHOD_NAME" value="printCookie" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CountriesApiTests.verifyAltSpelling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -182,8 +155,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CountriesApiTests" />
+      <option name="METHOD_NAME" value="verifyAltSpelling" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataSourceTest.loginWithXMLAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTest" />
+      <option name="METHOD_NAME" value="loginWithXMLAsDataSource" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeRegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework.tests" />
+      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeRegisterPageTest.emptyDataTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework.tests" />
+      <option name="MAIN_CLASS_NAME" value="Homework.tests.NegativeRegisterPageTest" />
+      <option name="METHOD_NAME" value="emptyDataTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -195,19 +221,19 @@
       <item itemvalue="Application.DrawShape" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.Truck" />
-      <item itemvalue="TestNG.LoginTest.login" />
-      <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
-      <item itemvalue="TestNG.AlertsTest.openAlert" />
-      <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
-      <item itemvalue="TestNG.CookieTest.deleteCookie" />
+      <item itemvalue="TestNG.NegativeRegisterPageTest" />
+      <item itemvalue="TestNG.CountriesApiTests.verifyAltSpelling" />
+      <item itemvalue="TestNG.LoginDataSourceTest.loginWithXMLAsDataSource" />
+      <item itemvalue="TestNG.NegativeRegisterPageTest.emptyDataTest" />
+      <item itemvalue="TestNG.CookieTest.printCookie" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AlertsTest.openAlert" />
-        <item itemvalue="TestNG.CookieTest.deleteCookie" />
-        <item itemvalue="TestNG.LoginTest.login" />
-        <item itemvalue="TestNG.ActionsTest.clickFirstDropDownOption" />
-        <item itemvalue="TestNG.AlertsTest.openPromptDialogAlert" />
+        <item itemvalue="TestNG.NegativeRegisterPageTest" />
+        <item itemvalue="TestNG.NegativeRegisterPageTest.emptyDataTest" />
+        <item itemvalue="TestNG.CookieTest.printCookie" />
+        <item itemvalue="TestNG.LoginDataSourceTest.loginWithXMLAsDataSource" />
+        <item itemvalue="TestNG.CountriesApiTests.verifyAltSpelling" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692358797361</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1693031500596</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693031500596</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +374,8 @@
     <MESSAGE value="Adaugare de teste noi" />
     <MESSAGE value="Cookie,alerts,hover,modal" />
     <MESSAGE value="Modificare Assert la tema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificare Assert la tema" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -75,8 +77,8 @@ public class LoginTest {
     }
 
     private String getErrorMessage(String locator) {
-        WebElement errorWebElement = (new WebDriverWait(driver, 3))
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+        WebElement errorWebElement = (new WebDriverWait(driver, Duration.of(3, ChronoUnit.SECONDS))
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))));
         return errorWebElement.getText();
 	}
 }

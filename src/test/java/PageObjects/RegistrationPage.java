@@ -10,6 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
+
 public class RegistrationPage {
 
     @FindBy(css = "input#terms+label")
@@ -24,7 +27,7 @@ public class RegistrationPage {
 
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver, 15);
+        wait = new WebDriverWait(driver, Duration.of(15, ChronoUnit.SECONDS));
         PageFactory.initElements(driver, this);
         actions = new Actions(driver);
     }
